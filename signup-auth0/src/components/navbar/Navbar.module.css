@@ -1,0 +1,25 @@
+nav {
+  background-color: #ff9900;
+  padding: 20px 0 12px 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.right ul {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 24px;
+}
+
+.right li {
+  list-style: none;
+  cursor: pointer;
+}
