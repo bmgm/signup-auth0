@@ -10,7 +10,9 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
+.left h1{
+  text-transform: uppercase;
+}
 
 .right ul {
   display: flex;
@@ -23,3 +25,25 @@ nav {
   list-style: none;
   cursor: pointer;
 }
+
+.uname{
+  display: flex;
+  gap: 12px;
+  /* outline: auto; */
+  align-items: center;
+}
+
+.uname button{
+  padding: 8px 20px;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.uname button:hover{
+  background-color: yellow;
+}
+
